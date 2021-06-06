@@ -1,0 +1,22 @@
+
+#display {
+    font-size: 40px;
+}
+body {
+    text-align: center;
+    background: -webkit-radial-gradient(rgb(113, 187, 240), rgb(45, 209, 45));
+    background: -o-radial-gradient(rgb(113, 187, 240), rgb(45, 209, 45));
+    background: -moz-radial-gradient(rgb(113, 187, 240), rgb(45, 209, 45));
+    background: radial-gradient(rgb(113, 187, 240), rgb(45, 209, 45));
+}
+.button {
+    cursor: pointer;
+    box-shadow: 0 5px rgb(113, 187, 240);
+    transform: translateY(4px);
+}
+
+.level {
+    cursor: pointer;
+    box-shadow: 0 5px rgb(113, 187, 240);
+    transform: translateY(4px);
+}

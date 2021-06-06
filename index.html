@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="myCode.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<img width = "200" height = "250" id = "image">
+<p id="letters"></p>
+<p id = "displayword" ></p>
+<p id = "display" ></p>
+<p id = "levelDisp" ></p>
+<p id = "categories" ></p>
+<p>Choose a number players:</p>
+<div class="dropdown-content">
+    <button value="one" onclick="numPlayers(1)" class = "level" id="buttonp1">One Player</button>
+    <button value="two" onclick="numPlayers(2)"class = "level" id="buttonp2">Two Players</button>
+    </div>
+<p>Choose a level:</p>
+<div class="dropdown-content">
+    <button value="easy" onclick="easy()" disabled = true class = "level" id="button1">Easy</button>
+    <button value="medium" onclick="medium()" disabled = true class = "level" id="button2">Medium</button>
+    <button value="hard" onclick="hard()" disabled = true class = "level" id="button3">Hard</button>
+</div>
+<br>
+<input type = "button" value = "reset" disabled = true onclick=reset() id="start" class = "button">
+<input type = "button" value = "click to guess a letter" disabled = true onclick=guessCheck() id="play" class = "button">
+<input type = "button" value = "How to Play" onclick=direction() id="how" class = "button">
+
+<p id = "triescorrect" ></p>
+<p id = "final"></p>
+<br>
+<p id="win"></p>
+<p id="lose"></p>
+<br>
+<p id="howTo1"></p>
+<p id="howTo2"></p>
+<p id="howTo3"></p>
+</body>
+</html>
